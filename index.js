@@ -19,7 +19,7 @@ const salt = bcrypt.genSaltSync(10);
 const secret = "fzrr334ffre42fbfsbrr16vrfvrvcfrf33fvreer";
 
 // Configuration du middleware CORS
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://mmctblog.web.app" }));
 
 // Middleware pour traiter les requêtes au format JSON
 app.use(express.json());
